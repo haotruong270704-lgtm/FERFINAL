@@ -1,0 +1,210 @@
+.title,
+.section-title,
+.nailroom-title,
+.card-title,
+.achievement-card .card-title {
+  color: #e91e63 !important;
+}
+
+.banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.banner .title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner .description {
+  margin-bottom: 20px;
+}
+
+.blog-section {
+  background-color: #f7f1f1;
+  padding: 50px 0;
+}
+
+.blog-section .section-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-section .blog-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-section .blog-card img {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.blog-section .blog-card .card-title {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.blog-section .blog-card .card-description {
+  margin-top: 10px;
+}
+
+.blog-section .see-more-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.blog-section .see-more-button .button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.blog-section .see-more-button .button:hover {
+  background-color: #d81b60;
+}
+
+.customer-feedback {
+  background-color: #f7f1f1;
+  padding: 50px 0;
+}
+
+.customer-feedback .section-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.customer-feedback .quote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.customer-feedback .name {
+  font-weight: bold;
+}
+
+.customer-feedback .customer-image {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .footer-links a {
+  color: white;
+  margin-right: 20px;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #e91e63;
+  border-radius: 50%;
+  font-size: 18px;
+  color: white;
+  z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #d81b60;
+}
+
+.nailroom-introduction {
+  background-color: #f7f1f1;
+  padding: 50px 0;
+}
+
+.nailroom-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nailroom-subtitle {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nailroom-description {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.nailroom-image {
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.nailroom-introduction .button {
+  background-color: #e91e63;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.nailroom-introduction .button:hover {
+  background-color: #d81b60;
+}
+
+.achievements-section {
+  background-color: #f7f1f1;
+  padding: 50px 0;
+}
+
+.achievements-section .section-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.achievement-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-card .card-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.achievement-card .card-description {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}

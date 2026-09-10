@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin",
+      "phone": "0905000001"
+    },
+    {
+      "id": 2,
+      "name": "Lan Nguyen",
+      "email": "user@example.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "0905000002"
+    },
+    {
+      "id": 3,
+      "name": "Mai Tran",
+      "email": "mai@example.com",
+      "password": "123456",
+      "role": "user",
+      "phone": "0905000003"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Pink Beauty Hub Hai Chau",
+      "area": "Hai Chau",
+      "address": "23 Duy Tan, Hai Chau, Da Nang",
+      "priceFrom": 150000,
+      "description": "Salon trung tam voi nhieu mau nail hien dai va khong gian nhe nhang.",
+      "homeService": true,
+      "lat": 16.0516,
+      "lng": 108.2205
+    },
+    {
+      "id": 2,
+      "name": "Pink Beauty Hub Son Tra",
+      "area": "Son Tra",
+      "address": "53 Hoang Bich Son, Son Tra, Da Nang",
+      "priceFrom": 180000,
+      "description": "Chi nhanh gan bien, phu hop cho khach du lich va khach dia phuong.",
+      "homeService": true,
+      "lat": 16.0783,
+      "lng": 108.2345
+    },
+    {
+      "id": 3,
+      "name": "Pink Beauty Hub Ngu Hanh Son",
+      "area": "Ngu Hanh Son",
+      "address": "114 Chau Thi Vinh Te, Ngu Hanh Son, Da Nang",
+      "priceFrom": 200000,
+      "description": "Diem hen yeu thich voi combo nail va cham soc tai nha.",
+      "homeService": true,
+      "lat": 16.0395,
+      "lng": 108.2412
+    },
+    {
+      "id": 4,
+      "name": "Pink Beauty Hub Cam Le",
+      "area": "Cam Le",
+      "address": "20 Quang Trung, Cam Le, Da Nang",
+      "priceFrom": 150000,
+      "description": "Chi nhanh phuc vu nhanh, gia phu hop cho khach dat lich trong ngay.",
+      "homeService": false,
+      "lat": 16.0111,
+      "lng": 108.2055
+    },
+    {
+      "id": 5,
+      "name": "Pink Beauty Hub Thanh Khe",
+      "area": "Thanh Khe",
+      "address": "20 Dong Da, Thanh Khe, Da Nang",
+      "priceFrom": 170000,
+      "description": "Phong cach hien dai, phu hop khach muon lam gel va ve nail.",
+      "homeService": true,
+      "lat": 16.0726,
+      "lng": 108.2048
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "name": "Nhat da - Son gel",
+      "price": 150000,
+      "duration": "30 phut",
+      "category": "Nail Care"
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "name": "Mong up - Mong bot - Mong gel",
+      "price": 250000,
+      "duration": "45 phut",
+      "category": "Nail Art"
+    },
+    {
+      "id": 3,
+      "locationId": 1,
+      "name": "Thao mong - Pha son",
+      "price": 100000,
+      "duration": "20 phut",
+      "category": "Remove"
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "name": "Nhat da - Son gel",
+      "price": 160000,
+      "duration": "30 phut",
+      "category": "Nail Care"
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "name": "Ve nail phong cach Han",
+      "price": 280000,
+      "duration": "60 phut",
+      "category": "Nail Art"
+    },
+    {
+      "id": 6,
+      "locationId": 2,
+      "name": "Combo cham soc mong tay",
+      "price": 220000,
+      "duration": "50 phut",
+      "category": "Combo"
+    },
+    {
+      "id": 7,
+      "locationId": 3,
+      "name": "Son gel premium",
+      "price": 190000,
+      "duration": "35 phut",
+      "category": "Nail Care"
+    },
+    {
+      "id": 8,
+      "locationId": 3,
+      "name": "Massage va nail spa",
+      "price": 320000,
+      "duration": "70 phut",
+      "category": "Spa"
+    },
+    {
+      "id": 9,
+      "locationId": 3,
+      "name": "Ve ombre",
+      "price": 260000,
+      "duration": "55 phut",
+      "category": "Nail Art"
+    },
+    {
+      "id": 10,
+      "locationId": 4,
+      "name": "Son gel co ban",
+      "price": 150000,
+      "duration": "30 phut",
+      "category": "Nail Care"
+    },
+    {
+      "id": 11,
+      "locationId": 4,
+      "name": "Cham soc mong chan",
+      "price": 180000,
+      "duration": "40 phut",
+      "category": "Pedicure"
+    },
+    {
+      "id": 12,
+      "locationId": 4,
+      "name": "Bo mong gel",
+      "price": 240000,
+      "duration": "45 phut",
+      "category": "Nail Art"
+    },
+    {
+      "id": 13,
+      "locationId": 5,
+      "name": "Gel phu bong",
+      "price": 170000,
+      "duration": "30 phut",
+      "category": "Nail Care"
+    },
+    {
+      "id": 14,
+      "locationId": 5,
+      "name": "Ve nail custom",
+      "price": 290000,
+      "duration": "65 phut",
+      "category": "Nail Art"
+    },
+    {
+      "id": 15,
+      "locationId": 5,
+      "name": "Combo tai nha",
+      "price": 350000,
+      "duration": "80 phut",
+      "category": "Home Service"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "locationId": 1,
+      "paymentId": 1,
+      "fullName": "Lan Nguyen",
+      "phoneNumber": "0905000002",
+      "email": "user@example.com",
+      "date": "2026-03-21",
+      "time": "10:00",
+      "serviceIds": [
+        1,
+        2
+      ],
+      "technicians": [
+        "Ky Thuat Vien 1"
+      ],
+      "notes": "Khach muon tone mau hong pastel.",
+      "status": "confirmed",
+      "homeService": false,
+      "totalPrice": 400000,
+      "createdAt": "2026-03-18T02:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "locationId": 3,
+      "paymentId": 2,
+      "fullName": "Mai Tran",
+      "phoneNumber": "0905000003",
+      "email": "mai@example.com",
+      "date": "2026-03-22",
+      "time": "14:00",
+      "serviceIds": [
+        7,
+        8
+      ],
+      "technicians": [
+        "Ky Thuat Vien 2"
+      ],
+      "notes": "Khach dat dich vu tai nha.",
+      "status": "pending",
+      "homeService": true,
+      "totalPrice": 510000,
+      "createdAt": "2026-03-18T03:00:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "appointmentId": 1,
+      "amount": 400000,
+      "method": "qr",
+      "status": "paid",
+      "qrValue": "https://pink-beauty-hub.example/payment/1",
+      "paidAt": "2026-03-18T02:10:00.000Z"
+    },
+    {
+      "id": 2,
+      "appointmentId": 2,
+      "amount": 510000,
+      "method": "qr",
+      "status": "pending",
+      "qrValue": "https://pink-beauty-hub.example/payment/2",
+      "paidAt": null
+    }
+  ]
+}

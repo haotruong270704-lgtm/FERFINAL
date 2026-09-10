@@ -1,0 +1,181 @@
+body {
+  background-color: #f3f0f5;
+  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.select-area {
+  padding: 80px 0;
+  text-align: center;
+  margin-top: 60px;
+  background-color: #f3f0f5;
+}
+
+.select-area .section-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #444;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.area-button {
+  text-transform: none;
+  padding: 14px 30px;
+  margin: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  background-color: white;
+  border: 2px solid #e91e63;
+  color: #e91e63;
+  cursor: pointer;
+  outline: none;
+}
+
+.area-button:hover {
+  background-color: #d81b60;
+  color: white;
+}
+
+.area-button.selected {
+  background-color: #e91e63;
+  color: white;
+}
+
+.select-area button:hover {
+  background-color: #e91e63;
+  color: white;
+  transform: scale(1.05);
+}
+
+.select-area button:active {
+  transform: scale(1);
+}
+
+.location-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.location-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.location-card .location-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #e91e63;
+  letter-spacing: 0.5px;
+}
+
+.location-card .location-address {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.location-card .location-price {
+  font-weight: bold;
+  font-size: 16px;
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+.service-badge {
+  background-color: #ffd700;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.location-card .button {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 25px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.location-card .button:hover {
+  background-color: #d81b60;
+  transform: scale(1.05);
+}
+
+.map-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+}
+
+.map-container {
+  position: relative;
+  height: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 12px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .select-area .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .select-area button {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .location-card {
+    margin-bottom: 25px;
+  }
+
+  .location-card .button {
+    width: 100%;
+    padding: 14px;
+  }
+}

@@ -1,0 +1,98 @@
+.about-container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 60px 0;
+}
+
+.about-header {
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.mission-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.mission-title {
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 40px;
+}
+
+.mission-description {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.services-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.services-section .mission-title {
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service-box {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.service-title {
+  font-weight: bold;
+  color: #e91e63;
+  margin-top: 15px;
+}
+
+.service-description {
+  color: #333;
+  margin-top: 10px;
+}
+
+.cta-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.cta-title {
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.cta-description {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  border-radius: 30px;
+}
+
+.about-image {
+  width: 80%;
+  max-width: 500px;
+  margin-top: 40px;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,176 @@
+.book-appointment-page {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h4,
+h6 {
+  font-weight: 600;
+}
+
+h4 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h6 {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.form-group {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.textField {
+  margin-bottom: 20px;
+}
+
+.MuiTextField-root {
+  width: 100%;
+}
+
+button {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff3a75;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.time-btn {
+  width: 100%;
+  margin: 8px 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.time-btn:hover {
+  transform: scale(1.05);
+}
+
+.time-btn.available {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.time-btn.selected {
+  background-color: #ff4c80;
+  color: #fff;
+}
+
+.time-btn.full {
+  background-color: #d3d3d3;
+  color: #fff;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__input-container input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.react-datepicker__input-container input:focus {
+  border-color: #ff4c80;
+  outline: none;
+}
+
+.icon-button {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+  background-color: #e0e0e0;
+}
+
+.number-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.number-container .icon-button {
+  padding: 10px;
+}
+
+.MuiSelect-root {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.MuiSelect-root:hover {
+  background-color: #ffecf3;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
